@@ -1,0 +1,172 @@
+[Root]
+Most Recent Package=VoiceClock
+Most Recent Deploy=VoiceClockNetwork
+
+[Deploy|VoiceClockNetwork|Root]
+Package=VoiceClock
+Handler=PDWizard.FolderDplySubWiz
+Folder=\\SMS_SERVER5\D\VoiceClock\
+
+
+[Package|VoiceClock|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\MyProjects\MySetups\VoiceClock
+
+[Package|VoiceClock|Configure DAO ISAMs]
+Applicable=No
+
+[Package|VoiceClock|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|VoiceClock|Files Found]
+
+[Package|VoiceClock|Files Released]
+Kernel.DLL=
+12clockpm.wav=
+12clockam.wav=
+11clockpm.wav=
+11clockam.wav=
+10clockpm.wav=
+10clockam.wav=
+09clockpm.wav=
+09clockam.wav=
+08clockpm.wav=
+08clockam.wav=
+07clockpm.wav=
+07clockam.wav=
+06clockpm.wav=
+06clockam.wav=
+05clockpm.wav=
+05clockam.wav=
+04clockpm.wav=
+04clockam.wav=
+03clockpm.wav=
+03clockam.wav=
+02clockpm.wav=
+02clockam.wav=
+01clockpm.wav=
+01clockam.wav=
+
+[Package|VoiceClock|Missing Dependency Information]
+
+[Package|VoiceClock|Out-of-Date Dependency Information]
+
+[Package|VoiceClock|Files Added]
+e:\myprojects\visual basic\voiceclock\voiceclock.res=
+
+[Package|VoiceClock|Files Removed]
+e:\myprojects\visual basic\voiceclock\voiceclock.res=
+
+[Package|VoiceClock|Files In Project]
+E:\MyProjects\Visual Basic\VoiceClock\VoiceClock.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\MyProjects\Visual Basic\VoiceClock\VoiceClock.res=No
+
+[Package|VoiceClock|Configure Registry Files]
+Applicable=No
+
+[Package|VoiceClock|Configure Remote Servers]
+Applicable=No
+
+[Package|VoiceClock|Install Locations]
+E:\MyProjects\Visual Basic\VoiceClock\VoiceClock.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\MyProjects\Visual Basic\VoiceClock\time\01clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\01clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\02clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\02clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\03clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\03clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\04clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\04clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\05clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\05clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\06clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\06clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\07clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\07clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\08clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\08clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\09clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\09clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\10clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\10clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\11clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\11clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\12clockam.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\time\12clockpm.wav=$(AppPath)\VoiceTime
+E:\MyProjects\Visual Basic\VoiceClock\VoiceClock.res=$(AppPath)
+
+[Package|VoiceClock|Configure Shared Files]
+Applicable=Yes
+E:\MyProjects\Visual Basic\VoiceClock\VoiceClock.exe=No
+E:\MyProjects\Visual Basic\VoiceClock\time\01clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\01clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\02clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\02clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\03clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\03clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\04clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\04clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\05clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\05clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\06clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\06clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\07clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\07clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\08clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\08clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\09clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\09clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\10clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\10clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\11clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\11clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\12clockam.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\time\12clockpm.wav=No
+E:\MyProjects\Visual Basic\VoiceClock\VoiceClock.res=Yes
+
+[Package|VoiceClock|Distribution]
+Type=single
+Size=1.44 MB
+Title=Voice Clock
+
+[Package|VoiceClock|IconGroups]
+Group0=Voice Clock
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|VoiceClock|Voice Clock]
+Icon1=VoiceClock.exe
+Title1=Voice Clock
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|VoiceClock|Package]
+PackageFolder=E:\MyProjects\MySetups\VoiceClock
+ProjectFolder=E:\MyProjects\Visual Basic\VoiceClock
+ServerSideCab=
+File1=E:\MyProjects\MySetups\VoiceClock\setup.exe
+File2=E:\MyProjects\MySetups\VoiceClock\Setup.Lst
+File3=E:\MyProjects\MySetups\VoiceClock\VoiceClock.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
